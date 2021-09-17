@@ -39,7 +39,7 @@
 						</ul>
 					</div>
 					<div class="sign-up-btn">
-						<a href="demo-request.html" class="sign-btn">Book Now</a>
+						<a href="demo-request.html" class="sign-btn">Book A Demo</a>
 					</div>
 				</nav>
 			</div>
@@ -49,7 +49,7 @@
 			<div class="container">
 				<div class="sec-title text-center">
 					<h2>Contact us</h2>
-					<p>Trickle.live is designed for D2C brands to give their visitors unified experience with vertical, short-form video and livestream<br />
+					<p>Trickle.live is designed for brands to give their visitors unified experience with vertical, short-form video and livestream<br />
 					After submitting the form, a sales representative will contact you within one business day.</p>
 				</div>
 				<div class="row">
@@ -61,13 +61,10 @@
 				</div><!-- /.col-md-6 -->
 				<div class="col-lg-6 col-md-12">
 					<div class="banner-content">
-						<!-- <form id="fs-frm" class="comment-form contact-form" name="simple-contact-form" action="https://formspree.io/f/mleazgza" method="POST"> -->
 						<form id="fs-frm" class="comment-form contact-form" name="simple-contact-form">
-							<!-- <fieldset id="fs-frm-inputs"> -->
 							<fieldset id="fields">
 							<input type="text" placeholder="Name" id="name" name="firstname"/>
 							<input type="email" placeholder="Email" id="email_address" name="email"/>
-							<!-- <input type="text" placeholder="Website URL" id="website" name="_website" /> -->
 							<input type="text" placeholder="Mobile No." id="phone" name="phone" />
 							<input type="hidden" name="_subject" id="email_subject" value="Contact Form Submission">
 							</fieldset>
@@ -89,7 +86,7 @@
 				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="footer-widget about-widget">
 						<a href="index.html"><img src="img/logo.png" alt="Awesome Image"/></a>
-						<p>Get ahead of the trend and add livestream and video widget on your D2C website today and transform your website into an engaged experience with vertical, short-form video and livestream on your website.</p>
+						<p>Get ahead of the trend and add livestream and video widget on your website today and transform your website into an engaged experience with vertical, short-form video and livestream on your website.</p>
 						<div class="social">
 							<a href="#" class="fab fa-facebook-f"></a><!--
 							--><a href="#" class="fab fa-twitter"></a><!--
@@ -103,9 +100,9 @@
 					<div class="title">
 						<h3>Address</h3>
 					</div><!-- /.title -->
-					<p><span>Phone:</span> +1 605 722 2032</p>
-					<p><span>Email:</span> example@mail.com</p>
-					<p><span>Address:</span> Charlotte, North Carolina, <br /> United States</p>
+					<p><span>Phone:</span>+91 7303315539</p>
+					<p><span>Email:</span>info.livecommerce@gmail.com</p>
+					<p><span>Address:</span>Udyog Vihar, Sector 18, Gurugram, India</p>
 				</div><!-- /.footer-widget -->
 			</div><!-- /.col-md-3 -->
 			
@@ -117,25 +114,13 @@
 					<div class="tweets-carousel owl-theme owl-carousel">
 						<div class="item">
 							<div class="single-tweet">
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
-								<a href="#">@JohnDoe</a>
+								<p>Brands should own their sales channels and control how their products are presented to their customers. There is a better way to do this using live stream shopping.</p>
+								<a href="#">@SunilNair</a>
 							</div><!-- /.single-tweet -->
 						</div><!-- /.item -->
 						<div class="item">
 							<div class="single-tweet">
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
-								<a href="#">@JohnDoe</a>
-							</div><!-- /.single-tweet -->
-						</div><!-- /.item -->
-						<div class="item">
-							<div class="single-tweet">
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
-								<a href="#">@JohnDoe</a>
-							</div><!-- /.single-tweet -->
-						</div><!-- /.item -->
-						<div class="item">
-							<div class="single-tweet">
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
+								<p>In-stream shopping is the future. Live shopping event attracts 40,000 views in just one hour</p>
 								<a href="#">@JohnDoe</a>
 							</div><!-- /.single-tweet -->
 						</div><!-- /.item -->
@@ -158,7 +143,6 @@
 
 <script>
     var form = document.getElementById("fs-frm");
-    
     async function handleSubmit(event) {
       event.preventDefault();
       var status = document.getElementById("my-form-status");
@@ -179,7 +163,11 @@
           		"name": "phone",
           		"value": phone
         	}
-      	]
+      	],
+      	"context": {
+	        "pageUri": "https://trickle.live/contact-us.html",
+	        "pageName": "Contact Us"
+	    }
       }
       var final_data = JSON.stringify(data)
       var xhr = new XMLHttpRequest();
@@ -203,25 +191,11 @@
             // alert(xhr.responseText); //Returns a 404 error if the formGuid isn't found     
         }
       }
-
       xhr.send(final_data)
-
-      // fetch("https://api.hsforms.com/submissions/v3/integration/submit/25062905/c566a5c3-c183-4b54-a831-4e831b2eaa04", {
-      //   method: "POST",
-      //   contentType: "application/json; charset=utf-8",
-      //   body: JSON.stringify(data),
-      //   headers: {
-      //       'Accept': 'application/json'
-      //   }
-      // }).then(response => {
-      //   status.innerHTML = "Thanks for your submission!";
-      //   form.reset()
-      // }).catch(error => {
-      //   status.innerHTML = "Oops! There was a problem submitting your form"
-      // });
     }
     form.addEventListener("submit", handleSubmit)
 </script>
+
 
 </body>
 

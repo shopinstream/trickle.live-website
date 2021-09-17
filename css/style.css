@@ -555,9 +555,14 @@ a:active {
 }
 .fun-fact .single-fun-fact {
   text-align: center;
+  border-right: 2px solid #d33396;
+  padding: 15px 35px;
+}
+.fun-fact .single-fun-fact.last{
+  border-right: none;
 }
 .fun-fact .single-fun-fact p {
-  color: #656565;
+  color: #ddd;
   font-size: 18px;
   font-weight: 600;
   margin: 0;
@@ -568,8 +573,8 @@ a:active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: 100px;
-  text-align: center;
+    font-size: 85px;
+    text-align: center;
 }
 .fun-fact .separator {
   display: block;
