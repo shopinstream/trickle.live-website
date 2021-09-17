@@ -255,6 +255,9 @@
         margin-right: 0;
         float: none;
     }
+    .navbar-light .navbar-nav .nav-link{
+        color: #fff !important;
+    }
 }
 @media(max-width: 920px) { 
     .banner-static .banner-moc-box > img {
