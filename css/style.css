@@ -2592,6 +2592,11 @@ footer.footer .footer-widget.links-widget ul {
   width: 80%;
   margin: auto;
 }
+.sample-d2c-img{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
 
 .header-details-page .nav-link{
   color: rgba(0,0,0,.5) !important;
