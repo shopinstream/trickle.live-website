@@ -498,6 +498,7 @@ a:active {
 }
 .banner-static .banner-content {
   /* padding-top: 140px; */
+  padding-bottom: 20px;;
 }
 .banner-static .banner-content h3 {
   margin: 0;
@@ -542,7 +543,7 @@ a:active {
 }
 .banner-static .banner-moc-box > img {
   position: relative;
-  left: 175px;
+  /* left: 175px; */
 }
 
 /************************** 
@@ -2670,4 +2671,21 @@ footer.footer .footer-widget.links-widget ul {
     color: #fff;
     cursor: pointer;
     z-index: 1;
+}
+.demo-request{
+  padding-top: 90px;;
+}
+.forShowMobileView{
+  display: none;
+}
+.forHideMobileView{
+  display: block;
+}
+@media (max-width: 991px) {
+  .forShowMobileView{
+    display: block;
+  }
+  .forHideMobileView{
+    display: none;
+  }
 }
