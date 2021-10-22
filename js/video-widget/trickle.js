@@ -29,5 +29,5 @@ trickle_runtime.setAttribute('src', prefix_trickle + "/runtime-main.6fc898bd.js"
 document.body.appendChild(trickle_runtime);
 
 var trickle_main = document.createElement('script');
-trickle_main.setAttribute('src', prefix_trickle + "/main.db72c023.chunk.js");
+trickle_main.setAttribute('src', prefix_trickle + "/main.a9195737.chunk.js");
 document.body.appendChild(trickle_main);
