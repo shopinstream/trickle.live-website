@@ -16,7 +16,7 @@ let prefix_trickle = "https://cdn.jsdelivr.net/gh/shopinstream/trickle.live-webs
 
 
 var trickle_app_script = document.createElement('script');
-trickle_app_script.setAttribute('src', prefix_trickle + "/2.0297684d.chunk.js");
+trickle_app_script.setAttribute('src', prefix_trickle + "/2.ffc5f98a.chunk.js");
 document.body.appendChild(trickle_app_script);
 
 var trickle_app_script2 = document.createElement('script');
@@ -29,5 +29,5 @@ trickle_runtime.setAttribute('src', prefix_trickle + "/runtime-main.6fc898bd.js"
 document.body.appendChild(trickle_runtime);
 
 var trickle_main = document.createElement('script');
-trickle_main.setAttribute('src', prefix_trickle + "/main.9a516004.chunk.js");
+trickle_main.setAttribute('src', prefix_trickle + "/main.bd472421.chunk.js");
 document.body.appendChild(trickle_main);
