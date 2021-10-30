@@ -18,7 +18,7 @@ document.querySelector('head').innerHTML += `<link rel="stylesheet" href="${pref
 
 
 var trickle_app_script = document.createElement('script');
-trickle_app_script.setAttribute('src', prefix_trickle + "/2.5cff9578.chunk.js");
+trickle_app_script.setAttribute('src', prefix_trickle + "/2.a99ae0b0.chunk.js");
 document.body.appendChild(trickle_app_script);
 
 var trickle_app_script2 = document.createElement('script');
@@ -31,5 +31,5 @@ trickle_runtime.setAttribute('src', prefix_trickle + "/runtime-main.38330eb0.js"
 document.body.appendChild(trickle_runtime);
 
 var trickle_main = document.createElement('script');
-trickle_main.setAttribute('src', prefix_trickle + "/main.92d9f049.chunk.js");
+trickle_main.setAttribute('src', prefix_trickle + "/main.adab08c4.chunk.js");
 document.body.appendChild(trickle_main);
