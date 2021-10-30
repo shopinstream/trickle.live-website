@@ -14,7 +14,7 @@ document.body.appendChild(div);
 let prefix_local = "./rct_build/static/js";
 let prefix_trickle = "https://cdn.jsdelivr.net/gh/shopinstream/trickle.live-website@main/js/video-widget";
 
-document.querySelector('head').innerHTML += `<link rel="stylesheet" href="${prefix_trickle+'/main.422c4441.chunk.css'}" type="text/css"/>`;
+document.querySelector('head').innerHTML += `<link rel="stylesheet" href="${prefix_trickle+'/main.679dad83.chunk.css'}" type="text/css"/>`;
 
 
 var trickle_app_script = document.createElement('script');
@@ -31,5 +31,5 @@ trickle_runtime.setAttribute('src', prefix_trickle + "/runtime-main.38330eb0.js"
 document.body.appendChild(trickle_runtime);
 
 var trickle_main = document.createElement('script');
-trickle_main.setAttribute('src', prefix_trickle + "/main.adab08c4.chunk.js");
+trickle_main.setAttribute('src', prefix_trickle + "/main.fa6f45ea.chunk.js");
 document.body.appendChild(trickle_main);
