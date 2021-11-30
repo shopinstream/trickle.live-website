@@ -12,7 +12,7 @@ window.uid = uid;
 document.body.appendChild(div);
 
 let prefix_local = "./rct_build/static/js";
-let prefix_trickle = "https://cdn.jsdelivr.net/gh/shopinstream/trickle.live-website@main/js/video-widget";
+let prefix_trickle = "https://delivery-edge-2.lc-paas.net/scripts/video-widget/";
 
 document.querySelector('head').innerHTML += `<link rel="stylesheet" href="${prefix_trickle+'/2.ab75b8d7.chunk.css'}" type="text/css"/>`;
 document.querySelector('head').innerHTML += `<link rel="stylesheet" href="${prefix_trickle+'/main.78355fc6.chunk.css'}" type="text/css"/>`;
