@@ -443,6 +443,11 @@ src="https://www.facebook.com/tr?id=1224406758056678&ev=PageView&noscript=1"
 	        "pageName": "HomePage"
 	    }
       }
+      if(!email){
+      	status.innerHTML = "Please submit email !";
+      	return
+      }
+
       var final_data = JSON.stringify(data)
       var xhr = new XMLHttpRequest();
       var url = "https://api.hsforms.com/submissions/v3/integration/submit/25062905/c566a5c3-c183-4b54-a831-4e831b2eaa04"
